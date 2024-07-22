@@ -1,1 +1,1 @@
-# getting-into-terraform-modules
+# terraform-aws-getting-into-terraform-modules
