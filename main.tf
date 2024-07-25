@@ -28,8 +28,6 @@ resource "aws_launch_template" "aws_lt_module" {
 
   instance_type = var.instance_type
 
-  key_name = var.key_name
-
   network_interfaces {
     associate_public_ip_address = true
     security_groups             = concat(var.security_groups, [aws_security_group.asg.id])

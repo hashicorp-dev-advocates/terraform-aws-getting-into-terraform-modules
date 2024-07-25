@@ -1,6 +1,5 @@
 variable "name" {
   type        = string
-  default     = "foo"
   description = "value"
 }
 
@@ -10,11 +9,11 @@ variable "instance_type" {
   description = "instance type"
 }
 
-variable "key_name" {
-  type        = string
-  default     = "test"
-  description = "key_name :-)"
-}
+# variable "key_name" {
+#   type        = string
+#   default     = "test"
+#   description = "key_name :-)"
+# }
 
 variable "security_groups" {
   type        = list(string)
